@@ -1,0 +1,27 @@
+#+TITLE: Gozart Plan
+
+* Sketch
+- Can we get more dimensions?
+  - Yes, with GnuGo
+- It should interface between Sabaki and GnuGo via GTP
+- Need to use an asyncio queue
+
+- Classes
+  - Do we use an analysis/analyzer class, a sonification class, or both?
+  - MIDI sequence class?
+* Sonification
+- Look into GTP commands, particularly the influence ones
+* To do
+- Grab coordinates from console.
+- Find docs for Leela Zero analysis output
+- 
+
+* How To
+Run outside of spacemacs
+#+BEGIN_SRC
+./path/to/env/python Gozart.py
+#+END_SRC
+
+#+BEGIN_SRC
+deactivate
+#+END_SRC
